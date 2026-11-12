@@ -1,4 +1,4 @@
-Ozih Uddin Al Fuzayel: Portfolio
+# Ozih Uddin Al Fuzayel: Portfolio
 
 Single-page portfolio for a performance marketer and media buyer (Meta Ads, search arbitrage, content arbitrage). Design concept: "The Ledger", an accountant's ledger crossed with a trading desk.
 

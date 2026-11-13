@@ -57,13 +57,12 @@ tailwind.config={theme:{extend:{colors:{paper:'#F4F1EA',ink:'#111111',accent:'#F
       <div class="border border-ink bg-paper font-mono text-sm shadow-[6px_6px_0_#111]">
         <div class="flex justify-between px-4 py-2 border-b border-ink bg-ink text-paper text-xs"><span>FIG. 1 / Daily ledger</span><span>[SAMPLE]</span></div>
         <dl class="divide-y divide-ink/30">
-          <div class="flex justify-between px-4 py-3"><dt>Spend</dt><dd>$[XXX]</dd></div>
-          <div class="flex justify-between px-4 py-3"><dt>Revenue</dt><dd>$[XXX]</dd></div>
-          <div class="flex justify-between px-4 py-3"><dt>ROI</dt><dd>[XX%]</dd></div>
+          <div class="flex justify-between px-4 py-3"><dt>Spend</dt><dd>$100</dd></div>
+          <div class="flex justify-between px-4 py-3"><dt>Revenue</dt><dd>$140</dd></div>
+          <div class="flex justify-between px-4 py-3"><dt>ROI</dt><dd>40%</dd></div>
           <div class="flex justify-between px-4 py-3"><dt>Status</dt><dd><span class="dot"></span>Scaling</dd></div>
         </dl>
       </div>
-      <p class="font-mono text-[11px] mt-2 opacity-70">Placeholder values. Real numbers go here.</p>
     </aside>
   </div>
   <div class="marquee border-t border-ink bg-ink text-paper font-mono text-xs" aria-label="Skills">
@@ -133,11 +132,10 @@ tailwind.config={theme:{extend:{colors:{paper:'#F4F1EA',ink:'#111111',accent:'#F
     <p class="label">04 / CASE NOTES</p>
     <h2 class="font-display font-extrabold tracking-tighter text-4xl md:text-6xl mt-3 mb-10 max-w-3xl">Notes from the desk.</h2>
     <div class="grid md:grid-cols-12 gap-8">
-      <article class="note md:col-span-5"><h3 class="font-mono text-xs">NOTE A / [CAMPAIGN NAME]</h3><dl><dt>Goal</dt><dd>[Goal, e.g. hit XX% ROAS]</dd><dt>Tested</dt><dd>[What I tested]</dd><dt>Happened</dt><dd><b class="count font-display text-4xl" data-to="0" data-suffix="% ROAS">[XX]</b></dd><dt>Learned</dt><dd>[One lesson]</dd></dl></article>
-      <article class="note md:col-span-4 md:mt-10"><h3 class="font-mono text-xs">NOTE B / [CAMPAIGN NAME]</h3><dl><dt>Goal</dt><dd>[Goal]</dd><dt>Tested</dt><dd>[What I tested]</dd><dt>Happened</dt><dd><b class="count font-display text-4xl" data-to="0" data-prefix="$">[XX]</b> profit</dd><dt>Learned</dt><dd>[One lesson]</dd></dl></article>
-      <article class="note md:col-span-3 md:mt-4"><h3 class="font-mono text-xs">NOTE C / [CAMPAIGN NAME]</h3><dl><dt>Goal</dt><dd>[Goal]</dd><dt>Tested</dt><dd>[What I tested]</dd><dt>Happened</dt><dd><b class="count font-display text-4xl" data-to="0" data-suffix="% CTR">[XX]</b></dd><dt>Learned</dt><dd>[One lesson]</dd></dl></article>
+      <article class="note md:col-span-5"><h3 class="font-mono text-xs">NOTE A / Teeth Braces</h3><dl><dt>Goal</dt><dd>80% ROAS</dd><dt>Tested</dt><dd>A/B Tested</dd><dt>Happened</dt><dd><b class="count font-display text-4xl" data-to="0" data-suffix="45% ROAS">45</b></dd><dt>Learned</dt><dd>Focus On Keyword</dd></dl></article>
+      <article class="note md:col-span-4 md:mt-10"><h3 class="font-mono text-xs">NOTE B / Online Courses</h3><dl><dt>Goal</dt><dd>75% ROAS</dd><dt>Tested</dt><dd>Creative Tested</dd><dt>Happened</dt><dd><b class="count font-display text-4xl" data-to="2000" data-prefix="$">2000</b> profit</dd><dt>Learned</dt><dd>Creative Testing</dd></dl></article>
+      <article class="note md:col-span-3 md:mt-4"><h3 class="font-mono text-xs">NOTE C / Bid Cape Campaign</h3><dl><dt>Goal</dt><dd>USA</dd><dt>Tested</dt><dd>Country Testing</dd><dt>Happened</dt><dd><b class="count font-display text-4xl" data-to="38" data-suffix="% CTR">.38</b></dd><dt>Learned</dt><dd>BID Cape</dd></dl></article>
     </div>
-    <p class="font-mono text-[11px] mt-6 opacity-70">Counters animate to the number in data-to. Set it in index.html.</p>
   </div>
 </section>
 
@@ -147,15 +145,20 @@ tailwind.config={theme:{extend:{colors:{paper:'#F4F1EA',ink:'#111111',accent:'#F
     <p class="label">05 / ABOUT</p>
     <h2 class="font-display font-extrabold tracking-tighter text-4xl md:text-6xl mt-3 mb-6">Accountant first. Media buyer now.</h2>
     <div class="space-y-4 max-w-xl">
-      <p>I studied Economics (BSS) and started as an accountant. Then I worked as a bank teller, then moved into visa and marketing work. In 2025 I became a media buyer at Anolipi Digital, running Meta campaigns for ROI.</p>
-      <p>Accounting made me strict. Every taka of budget gets a reason. If tracking is wrong, the decisions are wrong, so I fix tracking first.</p>
-      <p class="font-mono text-sm border-t border-ink pt-4">Also: Python, Selenium &amp; Pytest automation, QA. <a class="underline decoration-accent decoration-2 underline-offset-4" href="https://selenium-pytest-video.netlify.app" target="_blank" rel="noopener">See the demo</a></p>
+      <p>I studied Economics (BSS) and began my professional career in Accounting, where I developed strong financial discipline, analytical thinking, and attention to detail. I later gained experience as a Bank Teller before transitioning into Visa Processing and Marketing. </p>
+
+    <p> 2025, I moved into Digital Marketing as a Media Buyer at Anolipi Digital, specializing in <strong>Search Arbitrage and Meta Ads Campaign Management.</strong> My focus is on maximizing ROI, maintaining low CPC, improving RPC, optimizing campaign performance, and making data driven decisions.</p>
+
+    <p>Alongside my marketing experience, I have developed expertise in <strong>Quality Assurance (SQA),</strong> including manual testing, automation testing with Python and Pytest, Selenium, API testing with Postman, and performance testing with JMeter.</p>
+
+    <p>My accounting background taught me that every taka spent must have a purpose. My QA experience taught me that every system and tracking process must be reliable. I bring these skills together in media buying by focusing on accurate tracking, data analysis, budget optimization, campaign quality, and profitable results.</p>
+      <p class="font-mono text-sm border-t border-ink pt-4">Also: Python, Selenium &amp; Pytest automation, QA. <a class="underline decoration-accent decoration-2 underline-offset-4" href="https://alfuzayel.netlify.app/" target="_blank" rel="noopener">See the demo</a></p>
     </div>
   </div>
   <div class="md:col-span-5 md:order-1 flex justify-center">
     <figure class="photo">
       <img loading="lazy" width="360" height="440" style="object-fit:cover" alt="Portrait of Ozih Uddin Al Fuzayel" src="img/fuzayelimg.jpg">
-      <figcaption class="font-mono text-[11px] mt-2">FIG. 3 / Kanaighat, Sylhet</figcaption>
+      <figcaption class="font-mono text-[11px] mt-2">Ozih Uddin Al Fuzayel</figcaption>
     </figure>
   </div>
 </section>
@@ -164,7 +167,10 @@ tailwind.config={theme:{extend:{colors:{paper:'#F4F1EA',ink:'#111111',accent:'#F
 <section id="tools" class="border-t border-ink max-w-7xl mx-auto px-4 md:px-8 py-12">
   <p class="label mb-4">06 / TOOLS</p>
   <ul class="flex flex-wrap gap-2 font-mono text-xs">
-    <li class="chip">Meta Ads Manager</li><li class="chip">Google Analytics</li><li class="chip">Postman</li><li class="chip">Python</li><li class="chip">SQL</li><li class="chip">JavaScript</li><li class="chip">Canva</li><li class="chip">WordPress</li><li class="chip">MS Excel</li>
+    <li class="chip">Meta Ads Manager</li><li class="chip">Google Analytics</li><li class="chip">Postman</li><li class="chip">Python</li><li class="chip">SQL</li><li class="chip">JavaScript</li><li class="chip">Canva</li><li class="chip">WordPress</li>
+    <li class="chip">Pubpower</li><li class="chip">Meximizer</li><li class="chip">Minute Media</li>
+    <li class="chip">Tarzo</li><li class="chip">Skalio</li><li class="chip">Rysnova For HR</li>
+    <li class="chip">ChatGPT, Gemini</li><li class="chip">Claud AI</li><li class="chip">Perplexity</li><li class="chip">MS Excel</li>
   </ul>
 </section>
 
@@ -194,7 +200,7 @@ tailwind.config={theme:{extend:{colors:{paper:'#F4F1EA',ink:'#111111',accent:'#F
 </main>
 
 <footer class="bg-ink text-paper/70 border-t border-paper/20 font-mono text-[11px] px-4 md:px-8 py-4 flex flex-wrap justify-between gap-2">
-  <span>Kanaighat, Sylhet, Bangladesh</span><span>&copy; <span id="yr">2026</span> Ozih Uddin Al Fuzayel</span><span>Built by hand in Sylhet.</span>
+  <span>Kanaighat, Sylhet, Bangladesh</span><span>&copy; <span id="yr">2026</span> Ozih Uddin Al Fuzayel</span><span><a target="_blank" href="https://alfuzayel.netlify.app/"> Web : alfuzayel.netlify.app</a></span>
 </footer>
 <div id="toast" class="toast" role="status" aria-live="polite">Copied</div>
 <script src="script.js" defer></script>
